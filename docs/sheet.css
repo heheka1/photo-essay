@@ -1,0 +1,12 @@
+body {
+    background: rgb(221, 206, 187);
+    color: rgb(228, 136, 15);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+section {
+    background: rgb(14, 97, 60);
+    color: rgb(221, 206, 187);
+    width: 90%;
+    margin: auto;
+    padding:1em;
+}
