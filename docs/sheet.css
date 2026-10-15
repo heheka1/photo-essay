@@ -4,6 +4,9 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+
+
+
 .nav a {
 float: right;
 color:rgb(236, 187, 26);
@@ -22,7 +25,39 @@ section {
     padding:1em;
 }
 
+:root {
+--white: rgb(221, 206, 187);
+
+}
+
+#gitRect{
+             fill:var(--white)
+            }
+
+#gitRect {
+transition: all 1s ease;
+
+}
+
+ svg:hover #gitRect{
+         transform:scale(10%)
+        }
+
+
 /*text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+.btn {
+  background-color: rgb(221, 206, 187);
+  border: none;
+ color:rgb(236, 187, 26);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
