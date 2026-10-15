@@ -1,3 +1,1 @@
-public class Main {
-    
-}
+window.addEventListener('DOMContentLoaded', init, false);

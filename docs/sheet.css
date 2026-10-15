@@ -26,12 +26,12 @@ section {
 }
 
 :root {
---white: rgb(221, 206, 187);
+--green: rgb(14, 97, 60);;
 
 }
 
 #gitRect{
-             fill:var(--white)
+             fill:var(--green)
             }
 
 #gitRect {
@@ -40,7 +40,8 @@ transition: all 1s ease;
 }
 
  svg:hover #gitRect{
-         transform:scale(10%)
+         transform:scale(110%);
+         transform-origin:center;
         }
 
 
